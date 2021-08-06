@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Container = styled.aside`
-  background-color: ${() => theme.colors.background};
+  background-color: ${(props) => theme.colors.background};
   width: 360px;
   height: 100vh;
   overflow-y: auto;
@@ -30,3 +30,6 @@ export const Map = styled.div`
   width: calc(100% - 360px);
 `;
 
+export const CarouselTitle = styled.h1`
+  font-family: ${(props) => props.theme.fonts.regular};
+`;
