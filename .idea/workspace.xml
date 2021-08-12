@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="755000a2-3d77-4353-9555-062344610f6d" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/components/ImageCard/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+    <list default="true" id="755000a2-3d77-4353-9555-062344610f6d" name="Changes" comment="desenvolvendo componentes parte 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ImageCard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImageCard/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RestauranteCard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RestauranteCard/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RestauranteCard/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RestauranteCard/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628284942416</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="desenvolvendo componentes parte 1">
+      <created>1628802846061</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628802846061</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +150,8 @@
     <MESSAGE value="criado thema, home page e reset de stilos" />
     <MESSAGE value="inicio do estilo do conteudo lateral" />
     <MESSAGE value="adicionado react-material-icon e refatorado o layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionado react-material-icon e refatorado o layout" />
+    <MESSAGE value="desenvolvendo componentes parte 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="desenvolvendo componentes parte 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
