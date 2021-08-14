@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="755000a2-3d77-4353-9555-062344610f6d" name="Changes" comment="finalizado componentes">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="755000a2-3d77-4353-9555-062344610f6d" name="Changes" comment="criado a chave do google API">
+      <change afterPath="$PROJECT_DIR$/src/components/Map/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +116,11 @@
       <workItem from="1628909772178" duration="43000" />
       <workItem from="1628909895866" duration="135000" />
       <workItem from="1628911429618" duration="674000" />
-      <workItem from="1628915042463" duration="994000" />
+      <workItem from="1628915042463" duration="1061000" />
+      <workItem from="1628918214720" duration="31000" />
+      <workItem from="1628918272289" duration="149000" />
+      <workItem from="1628918435217" duration="18000" />
+      <workItem from="1628949911407" duration="1706000" />
     </task>
     <task id="LOCAL-00001" summary="criado thema, home page e reset de stilos">
       <created>1628217343317</created>
@@ -157,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628818944593</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="criado a chave do google API">
+      <created>1628918152831</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628918152831</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +196,8 @@
     <MESSAGE value="desenvolvendo componentes parte 1" />
     <MESSAGE value="desenvolvendo componentes parte 3 (inicio modal)" />
     <MESSAGE value="finalizado componentes" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalizado componentes" />
+    <MESSAGE value="criado a chave do google API" />
+    <option name="LAST_COMMIT_MESSAGE" value="criado a chave do google API" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
