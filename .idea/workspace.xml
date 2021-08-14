@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="755000a2-3d77-4353-9555-062344610f6d" name="Changes" comment="desenvolvendo componentes parte 3 (inicio modal)">
+    <list default="true" id="755000a2-3d77-4353-9555-062344610f6d" name="Changes" comment="finalizado componentes">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Modal/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="wsl://Ubuntu-20.04@/home/gilson/.nvm/versions/node/v12.22.2/bin/node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -101,6 +100,20 @@
       <workItem from="1628370816819" duration="17000" />
       <workItem from="1628374211294" duration="238000" />
       <workItem from="1628792332230" duration="4766000" />
+      <workItem from="1628907458282" duration="597000" />
+      <workItem from="1628908155860" duration="47000" />
+      <workItem from="1628908215388" duration="212000" />
+      <workItem from="1628908440290" duration="135000" />
+      <workItem from="1628908593960" duration="200000" />
+      <workItem from="1628908808767" duration="11000" />
+      <workItem from="1628908832540" duration="352000" />
+      <workItem from="1628909462302" duration="58000" />
+      <workItem from="1628909536869" duration="68000" />
+      <workItem from="1628909620972" duration="132000" />
+      <workItem from="1628909772178" duration="43000" />
+      <workItem from="1628909895866" duration="135000" />
+      <workItem from="1628911429618" duration="674000" />
+      <workItem from="1628915042463" duration="994000" />
     </task>
     <task id="LOCAL-00001" summary="criado thema, home page e reset de stilos">
       <created>1628217343317</created>
@@ -137,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628816390784</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finalizado componentes">
+      <created>1628818944593</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628818944593</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +181,8 @@
     <MESSAGE value="adicionado react-material-icon e refatorado o layout" />
     <MESSAGE value="desenvolvendo componentes parte 1" />
     <MESSAGE value="desenvolvendo componentes parte 3 (inicio modal)" />
-    <option name="LAST_COMMIT_MESSAGE" value="desenvolvendo componentes parte 3 (inicio modal)" />
+    <MESSAGE value="finalizado componentes" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalizado componentes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
