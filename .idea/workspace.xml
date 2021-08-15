@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="755000a2-3d77-4353-9555-062344610f6d" name="Changes" comment="criado a chave do google API">
-      <change afterPath="$PROJECT_DIR$/src/components/Map/index.jsx" afterDir="false" />
+    <list default="true" id="755000a2-3d77-4353-9555-062344610f6d" name="Changes" comment="inicio da implementacao do mapa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Map/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +117,9 @@
       <workItem from="1628918214720" duration="31000" />
       <workItem from="1628918272289" duration="149000" />
       <workItem from="1628918435217" duration="18000" />
-      <workItem from="1628949911407" duration="1706000" />
+      <workItem from="1628949911407" duration="1795000" />
+      <workItem from="1628951745517" duration="1384000" />
+      <workItem from="1629046114556" duration="5292000" />
     </task>
     <task id="LOCAL-00001" summary="criado thema, home page e reset de stilos">
       <created>1628217343317</created>
@@ -171,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628918152831</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="inicio da implementacao do mapa">
+      <created>1628951648446</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628951648446</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +203,8 @@
     <MESSAGE value="desenvolvendo componentes parte 3 (inicio modal)" />
     <MESSAGE value="finalizado componentes" />
     <MESSAGE value="criado a chave do google API" />
-    <option name="LAST_COMMIT_MESSAGE" value="criado a chave do google API" />
+    <MESSAGE value="inicio da implementacao do mapa" />
+    <option name="LAST_COMMIT_MESSAGE" value="inicio da implementacao do mapa" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

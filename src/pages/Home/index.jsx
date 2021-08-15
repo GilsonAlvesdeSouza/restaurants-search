@@ -8,6 +8,7 @@ import { Card, Map, Modal, RestaurantCard } from '../../components';
 
 const Home = () => {
   const [inputValue, setInputValue] = useState('');
+  const [query, setQuery] = useState(null);
   const [modalOpened, setModalOpened] = useState(true);
 
   const settings = {
@@ -19,6 +20,12 @@ const Home = () => {
     adaptiveHeight: true,
   };
 
+  function handleKeyPess(e) {
+    if (e.key === 'Enter') {
+      setQuery(inputValue);
+    }
+  }
+
   return (
     <Wrapper>
       <Container>
@@ -28,7 +35,11 @@ const Home = () => {
             label="Pesquisar Restaurantes"
             outlined
             trailingIcon={<MaterialIcon role="button" icon="search " />}>
-            <Input value={inputValue} onChange={(e) => setInputValue(e.currentTarget.value)} />
+            <Input
+              value={inputValue}
+              onKeyPress={handleKeyPess}
+              onChange={(e) => setInputValue(e.currentTarget.value)}
+            />
           </TextField>
           <CarouselTitle>Na sua Área</CarouselTitle>
           <Carousel {...settings}>
@@ -43,8 +54,8 @@ const Home = () => {
         </Search>
         <RestaurantCard />
       </Container>
-      <Map />
-      {/*<Modal open={modalOpened} onclose={() => setModalOpened(!modalOpened)} />*/}
+      <Map query={query} />
+      {/* <Modal open={modalOpened} onclose={() => setModalOpened(!modalOpened)} /> */}
     </Wrapper>
   );
 };
