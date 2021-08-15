@@ -1,18 +1,21 @@
 import React from 'react';
 import ReactStars from 'react-rating-stars-component';
-import restaurant from '../../assets/restaurante-fake.png';
+import restaurante from '../../assets/restaurante-fake.png';
 
 import { Address, Restaurant, RestaurantInfo, RestaurantPhoto, Title } from './style';
 
-const RestaurantCard = () => {
+const RestaurantCard = ({ restaurant }) => {
   return (
     <Restaurant>
       <RestaurantInfo>
-        <Title>Nome do Restaurante</Title>
-        <ReactStars isHalf size={20} activeColor="#e7711c" edit={false} value={3.5} />
-        <Address>Rua 13 Qd 20a Lt 15 B. Boa Vista Anapolis-GO</Address>
+        <Title>{restaurant.name}</Title>
+        <ReactStars isHalf size={20} activeColor="#e7711c" edit={false} value={restaurant.rating} />
+        <Address>{restaurant.vicinity || restaurant.formatted_address}</Address>
       </RestaurantInfo>
-      <RestaurantPhoto src={restaurant} title="Imagem do Restaurante" />
+      <RestaurantPhoto
+        src={restaurant.photos ? restaurant.photos[0].getUrl() : restaurante}
+        title="Imagem do Restaurante"
+      />
     </Restaurant>
   );
 };
