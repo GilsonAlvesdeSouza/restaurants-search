@@ -5,7 +5,7 @@ export const TYPES = {
 
 const initialState = {
   restaurants: [],
-  retaurantSelected: null,
+  restaurantSelected: null,
 };
 
 export default function reducer(state = initialState, action) {
@@ -14,7 +14,7 @@ export default function reducer(state = initialState, action) {
       return { ...state, restaurants: action.payload };
 
     case TYPES.SET_RESTAURANT:
-      return { ...state, restaurant: action.payload };
+      return { ...state, restaurantSelected: action.payload };
 
     default:
       return state;

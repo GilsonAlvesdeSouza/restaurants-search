@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="755000a2-3d77-4353-9555-062344610f6d" name="Changes" comment="implementando Maker dos restaurantes no mapa parte 1">
+    <list default="true" id="755000a2-3d77-4353-9555-062344610f6d" name="Changes" comment="implementando Maker dos restaurantes no mapa parte 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImageCard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImageCard/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Map/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/RestauranteCard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RestauranteCard/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/modules/restaurants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/modules/restaurants.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +41,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
-  </component>
   <component name="ProjectId" id="1wKZixYzS9rVKEotKJL7YKuDUVq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -61,7 +58,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="wsl://Ubuntu-20.04@/home/gilson/.nvm/versions/node/v12.22.2/bin/node" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -125,7 +124,9 @@
       <workItem from="1628918435217" duration="18000" />
       <workItem from="1628949911407" duration="1795000" />
       <workItem from="1628951745517" duration="1384000" />
-      <workItem from="1629046114556" duration="17353000" />
+      <workItem from="1629046114556" duration="17687000" />
+      <workItem from="1629067344275" duration="573000" />
+      <workItem from="1629110553863" duration="3570000" />
     </task>
     <task id="LOCAL-00001" summary="criado thema, home page e reset de stilos">
       <created>1628217343317</created>
@@ -204,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629056872333</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="implementando Maker dos restaurantes no mapa parte 2">
+      <created>1629067191341</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1629067191341</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +242,8 @@
     <MESSAGE value="fim da implementacao do mapa" />
     <MESSAGE value="implementando redux" />
     <MESSAGE value="implementando Maker dos restaurantes no mapa parte 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementando Maker dos restaurantes no mapa parte 1" />
+    <MESSAGE value="implementando Maker dos restaurantes no mapa parte 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementando Maker dos restaurantes no mapa parte 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
